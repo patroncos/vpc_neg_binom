@@ -1,0 +1,12 @@
+name: vpc_nb2_app
+title: vpc_nb2_app
+username:
+account: patricio-troncoso
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4279065
+bundleId: 4722474
+url: https://patricio-troncoso.shinyapps.io/vpc_nb2_app/
+when: 1623837967.24179
+asMultiple: FALSE
+asStatic: FALSE
