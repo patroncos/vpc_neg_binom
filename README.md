@@ -13,9 +13,17 @@ The function *vpc_neg_binom* can use a "glmerMod" object or you can input the pa
 
 You can download the function and call it in R by typing: **source("vpc_neg_binom.R")**
 
-The function uses the following parameters:
+Then, the function has the following form:
 
-**x** is a "glmerMod" object
+**vpc_nb(x)**
+
+Where **x** is a "glmerMod" object
+
+It can also be used with the values from a NB model results table, as follows:
+
+**vpc_nb(beta=beta, u=u, alpha=alpha)**
+
+Where:
 
 **beta** is the intercept (in the log-scale)
 
